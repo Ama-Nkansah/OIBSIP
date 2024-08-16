@@ -6,7 +6,7 @@ Projects
 
 1. To-Do List App:
 A simple web application for managing tasks. Built with HTML, CSS, and JavaScript.
-[To-Do List App](https://OIBSIP/To-dolist/index.html)
+[To-Do List App](To-dolist/index.html)
 
 3. Calculator App:
 A basic web-based calculator for arithmetic operations. Built with HTML, CSS, and JavaScript.
