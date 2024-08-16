@@ -4,16 +4,17 @@ This repository showcases four web development projects that demonstrate my skil
 
 Projects
 
-1. To-Do List App
+1. To-Do List App:
 A simple web application for managing tasks. Built with HTML, CSS, and JavaScript.
+Calculator app/index.html
 
-2. Calculator App
+3. Calculator App:
 A basic web-based calculator for arithmetic operations. Built with HTML, CSS, and JavaScript.
 
-3. Login Authentication App
+4. Login Authentication App:
 A web application that implements user authentication. Allows users to register, log in, and log out.
 
-4. Tribute Page
+5. Tribute Page:
 A static web page dedicated to Whitney Houston. Built with HTML, CSS, and JavaScript.
 
 Technologies Used
