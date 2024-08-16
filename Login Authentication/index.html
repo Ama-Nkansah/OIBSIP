@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@400..700&family=Playwrite+NO:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5064acb59b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="logo">
+            <i class="fa-solid fa-martini-glass-citrus"></i>
+            <h1>Yendidiwithama</h1>
+        </div>
+        
+      <div class="form-box">
+          <h1 id="title">Sign Up</h1>
+         <form>
+            <div class="input-group">
+
+              <div class="input-field" id="namefield">
+                 <i class="fa-solid fa-user"></i>
+                 <input type="text" placeholder="Name">
+              </div>  
+             
+              <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email">
+             </div>  
+
+             <div class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password">
+             </div>  
+               <p>Forgot Password<a href="#">Click here</a></p>
+
+             </div>
+              <div class="btn-field">
+                <button type="button" id="signupBtn">Sign Up</button>
+                <button type="button" class="disable" id="signinBtn">Sign In</button>
+              </div>
+
+              <script>
+                let signupBtn = document.getElementById("signupBtn");
+                let signinBtn = document.getElementById("signinBtn");
+                let namefield = document.getElementById("namefield");
+                let title = document.getElementById("title");
+
+                  signinBtn.onclick = function(){
+                  namefield.style.maxHeight = "0";
+                  title.innerHTML = "Sign In";
+                  signupBtn.classList.add("disable");
+                  signinBtn.classList.remove("disable");
+                  }
+
+                  signupBtn.onclick = function(){
+                  namefield.style.maxHeight = "60px";
+                  title.innerHTML = "Sign Up";
+                  signupBtn.classList.remove("disable");
+                  signinBtn.classList.add("disable");
+                }
+
+
+
+
+
+              </script>
+         </form>
+         <footer>©AmaNkansah2024</footer>
+      </div>
+    </div>
+    
+</body>
+</html>
