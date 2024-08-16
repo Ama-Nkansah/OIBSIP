@@ -1,0 +1,64 @@
+
+.main-container{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(to top, #b1b1b1 ,#ffffff);
+    height: 100%
+}
+
+.heading{
+    display: block;
+    font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.image{
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    height: fit-content;
+    
+}
+.tribute{
+    display: inline-block;
+    width: 60%;
+    margin: 15px;
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+.both{
+    display: flex;
+    justify-content: space-between;
+}
+#facts{
+    display: block;
+    margin-left: 45%;
+    margin-top: 0%;
+    font-weight:normal;
+}
+h2{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  font-size:30px;
+}
+
+h1{
+ text-shadow:2px 2px 4px #000000, -2px -2px 4px #FFFFFF;
+}
+   
+li{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+}
+
