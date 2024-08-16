@@ -6,8 +6,7 @@ Projects
 
 1. To-Do List App:
 A simple web application for managing tasks. Built with HTML, CSS, and JavaScript.
-https://Calculator app/index.html
-Calculator app
+https://Calculatorapp/index.html
 
 3. Calculator App:
 A basic web-based calculator for arithmetic operations. Built with HTML, CSS, and JavaScript.
