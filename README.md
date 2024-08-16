@@ -4,23 +4,23 @@ This repository showcases four web development projects that demonstrate my skil
 
 Projects
 
-1. To-Do List App:
+1. [To-Do List App](https://todolist-ama.netlify.app/) :
 A simple web application for managing tasks. Built with HTML, CSS, and JavaScript.
-[To-Do List App](To-dolist/index.html)
 
-3. Calculator App:
+2. [Calculator App](https://ama-calculator.netlify.app/) :
 A basic web-based calculator for arithmetic operations. Built with HTML, CSS, and JavaScript.
 
-4. Login Authentication App:
-A web application that implements user authentication. Allows users to register, log in, and log out.
+3. [Login Authentication App](https://amalogin-authentication.netlify.app/) :
+A web application that implements user authentication. Allows users to register, log in, and log out. 
 
-5. Tribute Page:
+4. [Tribute page](https://tribute-ama.netlify.app/) :
 A static web page dedicated to Whitney Houston. Built with HTML, CSS, and JavaScript.
 
 Technologies Used
 - HTML
 - CSS
 - JavaScript
+
 About Me
 
 Ama Nkansah - Web Developer
